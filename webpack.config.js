@@ -12,6 +12,7 @@ module.exports = {
       {
         test: /\.(t|j)sx?$/,
         use: 'babel-loader',
+        exclude: /node_modules/,
       },
       {
         test: /\.(png|jpe?g|gif|ico)$/i,
@@ -46,5 +47,6 @@ module.exports = {
     stats: 'minimal',
     overlay: true,
     port: 8080,
+    open: true,
   },
 }
