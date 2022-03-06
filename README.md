@@ -1,5 +1,7 @@
 # Asdougl's React Typescript Tailwindcss Boilerplate
 
+**Deprecated** See [2nd Edition](https://github.com/Asdougl/react-boilerplate-2)
+
 How to run:
 
 ### Dev Server
